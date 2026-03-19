@@ -1,0 +1,17 @@
+app = 'emprenderctes'
+primary_region = 'eze'
+
+[build]
+
+[http_service]
+  internal_port = 80
+  force_https = true
+  auto_stop_machines = 'stop'
+  auto_start_machines = true
+  min_machines_running = 0
+  processes = ['app']
+
+# Más CPU/memoria:
+[[vm]]
+  size = 'shared-cpu-2x'
+  memory = '1024MB'

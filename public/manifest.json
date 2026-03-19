@@ -1,0 +1,24 @@
+{
+  "short_name": "Wulfnet",
+  "name": "Wulfnet - Agencia Digital",
+  "description": "Transformando visiones y empresas a través de diseño y marketing.",
+  "icons": [
+    {
+      "src": "/logoApp2.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "/logoApp2.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#D4AF37",
+  "background_color": "#ffffff",
+  "orientation": "portrait"
+}

@@ -1,0 +1,8 @@
+.exclude-stroke{
+  fill: none !important;
+  stroke: #DEBB35 !important;
+  stroke-width: 0.9 !important;
+  vector-effect: non-scaling-stroke;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
